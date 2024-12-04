@@ -18,7 +18,7 @@ app.post('/submit', async (req, res) => {
     
     // Verify the token
     const formData = new URLSearchParams();
-    formData.append('secret', '0x4AAAAAAAzWli0vD4SjRqJ84inAuYdZiC8');
+    formData.append('secret', '0x4AAAAAAA1dIqbZaN3mFAamMAT-ZjaGwcY');
     formData.append('response', token);
 
     try {
